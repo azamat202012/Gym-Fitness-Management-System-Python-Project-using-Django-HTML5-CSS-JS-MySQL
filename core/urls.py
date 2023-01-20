@@ -18,6 +18,7 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('gym_admin/', view='index', name='index')
 ]
 
 admin.site.index_title = "Admin page"
